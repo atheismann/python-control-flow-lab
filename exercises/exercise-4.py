@@ -12,3 +12,13 @@
 #      isosceles - two sides are the same length
 # 3. Print a message such as:
 #      - A triangle with sides of <a>, <b> & <c> is a <type of triangle> triangle
+
+a = input('a: ')
+b = input('b: ')
+c = input('c: ')
+if a == b == c:
+  print(f'A triangle with sides of {a}, {b}, & {c} is an equilateral triangle')
+elif a == b or a == c or b == c:
+  print(f'A triangle with sides of {a}, {b}, & {c} is an isoceles triangle')
+else:
+  print(f'A triangle with sides of {a}, {b}, & {c} is a scalene triangle')

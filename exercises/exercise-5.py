@@ -12,3 +12,15 @@
 #      etc.
 
 # Hint: The next number is found by adding the two numbers before it
+
+num_terms = 50
+n1 = 0
+n2 = 1
+count = 0
+
+while count < num_terms:
+  print(f'term: {count} // number: {n1}')
+  nth = n1 + n2
+  n1 = n2
+  n2 = nth
+  count +=1
