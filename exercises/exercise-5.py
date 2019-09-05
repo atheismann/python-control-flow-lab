@@ -16,10 +16,10 @@
 num_terms = 50
 n1 = 0
 n2 = 1
-count = 0
+term = 0
 
 while count < num_terms:
-  print(f'term: {count} // number: {n1}')
+  print(f'term: {term} // number: {n1}')
   nth = n1 + n2
   n1 = n2
   n2 = nth
