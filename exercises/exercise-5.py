@@ -18,7 +18,7 @@ n1 = 0
 n2 = 1
 term = 0
 
-while count < num_terms:
+while term < num_terms:
   print(f'term: {term} // number: {n1}')
   nth = n1 + n2
   n1 = n2
